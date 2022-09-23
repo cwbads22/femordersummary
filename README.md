@@ -3,7 +3,7 @@
 <p><strong>Links</strong></p>
 Live Site URL: https://cwbads22.github.io/femordersummary/index.html
 <br>
-FrontEnd Mentor post:
+FrontEnd Mentor: https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj
 <br>
 <br>
 <p><strong>My process</strong></p>
