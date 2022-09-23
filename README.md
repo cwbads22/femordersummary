@@ -16,7 +16,7 @@ HTML5 markup | CSS custom properties | Flexbox | Mobile-first workflow
 <br>
 
 <h3>What I learned</h3>
-<p> I had the chance to use <strong>flex</strong> a lot to organize the elements within the project. VS Code has a addon called <strong>px to rem</strong> that is extremely helpful to make things responsive, as it converts px to rem automatically, without the need to make some unnecessary calculations. It helped to make the workflow more focused on the project itself. Also used a lot the browser's developer tools to help understand the relation among the elements and further corrections.</p>
+<p> I had the chance to use <strong>flex</strong> a lot to organize the elements within the project. VS Code has an addon called <strong>px to rem</strong> that is extremely helpful to make things responsive, as it converts px to rem automatically, without the need to make some unnecessary calculations. It helped to make the workflow more focused on the project itself. Also used a lot the browser's developer tools to help understand the relation among the elements and further corrections.</p>
 
 <p> This one was easier to accomplish, as it's a sequence of the first one I tried (QrCode Component). It seems all the projects are inside a context and each one teaches you a new knowledge, a new approach to a given problem, a new step ahead. I'm pretty happy with the results of my work and looking foward to the new challenges ahead.</p>
 <br>
