@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+/* general config */
+html, body {
+    font-family: 'Red Hat Display', sans-serif;
+    background-color:hsl(212, 45%, 89%, 0.5);
+    background-repeat: no-repeat;
+    background-image: url(./images/pattern-background-desktop.svg);
+    color: hsl(223, 47%, 23%);
+    height:100vh;
+    width:100vw;
+    padding: 0;
+    margin: 0;
+}   
+
+/* widget config overall */
+.widget {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.widgtContainer {
+    background-color: #fff;
+    height: 34.375rem;
+    width: 20.625rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: .9375rem;
+}
+
+.imgboy {
+    width: 100%;
+    height: 9.375rem;
+}
+
+img {
+    width: 100%;
+    border-top-left-radius: .9375rem;
+    border-top-right-radius: .9375rem;
+}
+
+/* summary section config */
+.summary {
+    text-align: center;
+    height: 9.375rem;
+    width: 15.625rem;
+    padding-top: 1rem;
+}
+
+.descriptd {
+    line-height: 1.6875rem;
+    font-size: .9375rem;
+    font-weight: 500;
+}
+
+h1 {
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+/* priceplan section config */
+.priceplan {
+    display: flex;
+    width: 85%;
+    padding-bottom: 1rem;
+}
+
+.items {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 5rem;
+    margin: .3125rem;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: .8125rem;
+}
+
+.priceplan img {
+    width: 2.8rem;
+    height: 2.8rem;
+}
+
+.price, h4 {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+.linkplan, a {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 0.9rem;
+    cursor: pointer;
+    color: hsl(223, 47%, 23%);
+}
+
+.linkplan, a:hover {
+    color: hsl(245, 75%, 52%);
+}
+
+/* Button config */
+.btn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.pay {
+    font-size: .9375rem;
+    font-weight: 700;
+    padding: 1.125rem 4.0625rem;
+    background-color: hsl(245, 75%, 52%);
+    color: #fff;
+    border-radius: .8125rem;
+    border: none;
+    cursor: pointer;
+    box-shadow:  0px 15px 24px -10px rgba(62, 41, 224, 0.5);
+    -webkit-box-shadow:  0px 15px 24px -10px rgba(62, 41, 224, 0.5);
+}
+
+.pay:hover{
+    background-color: #766cf1;
+}
+
+.cancel {
+    height: 3rem;
+    padding-bottom: 1rem;
+    font-weight: 700;
+    color: hsl(223, 47%, 23%);
+}
